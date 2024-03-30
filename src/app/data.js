@@ -52,7 +52,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/resume.png",
+    link: "/resume.jpg",
     icon: "resume",
     newTab: true,
   },
