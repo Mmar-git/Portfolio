@@ -3,7 +3,7 @@ import bg from "../../../../public/background/about-background.png";
 import RenderModel from "@/components/RenderModel";
 import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
-const Batarang = dynamic(() => import("@/components/models/Batarang"), {
+const Batarang = dynamic(() => import("@/components/Models/Batarang"), {
   ssr: false,
 });
 

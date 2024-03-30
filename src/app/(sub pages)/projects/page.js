@@ -4,7 +4,7 @@ import RenderModel from "@/components/RenderModel";
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 import dynamic from "next/dynamic";
-const Batmobile = dynamic(() => import("@/components/models/Batmobile"), {
+const Batmobile = dynamic(() => import("@/components/Models/Batmobile"), {
   ssr: false,
 });
 
