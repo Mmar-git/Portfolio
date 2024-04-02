@@ -15,13 +15,12 @@ export default function Home() {
         alt="background-image"
         fill
         className="-z-50 w-full h-full object-cover object-center opacity-80"/>
-  <div className="w-full h-screen">
-  <Navigation/>
-<RenderModel>
-  <Batman/>
-</RenderModel></div>
-
-
+     <div className="w-full h-screen">
+       <Navigation/>
+       <RenderModel>
+       <Batman/>
+       </RenderModel>
+     </div>
     </main>
   );
 }
